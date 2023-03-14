@@ -6,10 +6,11 @@
 
 Creare una web-app che permetta di leggere una lista di dischi presente nel nostro server.
 
-## TECNOLOGIE:
+## TECNOLOGIE e LIBRERIE:
 
 - Html
 - CSS
+- Bootstrap
 - VueJS (importato tramite CDN)
 - Axios
 - PHP
