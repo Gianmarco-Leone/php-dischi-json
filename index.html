@@ -52,10 +52,10 @@
       <main>
         <div class="container py-5">
           <div class="row gy-3">
-            <div v-for="(cd, index) of cds" class="col-6 col-md-4">
-              <div @click="changeOverlay(index)" class="card">
-                <img :src="cd.poster"  class="card-img-top p-1 p-md-3 p-lg-5">
-                <div class="card-body pt-0 text-center text-white">
+            <div v-for="(cd, index) of cds" class="col-6 col-md-4 d-flex justify-content-center">
+              <div @click="changeOverlay(index)" class="card p-3">
+                <img :src="cd.poster"  class="card-img-top">
+                <div class="card-body text-center text-white">
                   <h5 class="card-title">
                     {{cd.title}}
                   </h5>
