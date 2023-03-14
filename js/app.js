@@ -3,11 +3,13 @@ const app = Vue.createApp({
     return {
       cds: [],
       showOverlay: false,
+      activeCdIndex: 0,
     };
   },
   methods: {
-    changeOverlay() {
+    changeOverlay(index) {
       this.showOverlay = !this.showOverlay;
+      this.activeCdIndex = index;
     },
   },
   created() {

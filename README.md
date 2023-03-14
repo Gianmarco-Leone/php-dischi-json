@@ -2,6 +2,8 @@
 
 > WebApp che legge lista di dischi presente su un server
 
+![Screenshot](./img/my_screenshot_1.png)
+
 ## DESCRIZIONE:
 
 Creare una web-app che permetta di leggere una lista di dischi presente nel nostro server.
@@ -15,11 +17,8 @@ Creare una web-app che permetta di leggere una lista di dischi presente nel nost
 - Axios
 - PHP
 
-<!-- Consigli
-Nello svolgere l'esercizio seguite un approccio graduale.
-Prima assicuratevi che la vostra pagina index.php (il vostro front-end) riesca a comunicare correttamente con il vostro script PHP (le vostre "API").
-Solo a questo punto sarà utile passare alla lettura della lista da un file JSON. -->
+## Bonus:
 
-<!-- ## Bonus:
+Al click su un disco, recuperare e mostrare i dati del disco selezionato in un overlay.
 
-Al click su un disco, recuperare e mostrare i dati del disco selezionato. -->
+![Screenshot](./img/my_screenshot_2.png)

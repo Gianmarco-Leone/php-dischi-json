@@ -39,7 +39,7 @@ main {
   position: relative;
 }
 
-main .container .row .col-4 .card {
+main .container .row .col-6 .card {
   background-color: var(--bg-dark-blue);
   cursor: pointer;
 }
@@ -65,4 +65,13 @@ main .container .row .col-4 .card {
   border: 1px solid #fff;
   text-align: center;
   cursor: pointer;
+}
+
+.overlay .container {
+  height: 100%;
+  width: 100%;
+}
+
+.overlay .container img {
+  max-width: 15rem;
 }
