@@ -1,0 +1,40 @@
+:root {
+  --bg-dark-blue: #081929;
+  --bg-blue: #1d2d3c;
+  --primary-color: #17d65f;
+}
+/************
+GENERICS
+*************/
+ul {
+  list-style-type: none;
+}
+
+/************
+HEADER
+*************/
+header {
+  height: 80px;
+  background-color: var(--bg-dark-blue);
+}
+
+header .container {
+  height: 100%;
+}
+
+header .container i {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+/************
+MAIN
+*************/
+main {
+  background-color: var(--bg-blue);
+}
+
+main .container .row .col-4 .card {
+  background-color: var(--bg-dark-blue);
+  cursor: pointer;
+}
