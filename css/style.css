@@ -6,6 +6,10 @@
 /************
 GENERICS
 *************/
+.app {
+  position: relative;
+}
+
 ul {
   list-style-type: none;
 }
@@ -32,9 +36,33 @@ MAIN
 *************/
 main {
   background-color: var(--bg-blue);
+  position: relative;
 }
 
 main .container .row .col-4 .card {
   background-color: var(--bg-dark-blue);
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(17, 32, 49, 0.9);
+}
+
+.overlay .close-button {
+  display: inline-block;
+  font-weight: 600;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  vertical-align: middle;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
   cursor: pointer;
 }

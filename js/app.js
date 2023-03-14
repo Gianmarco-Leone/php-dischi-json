@@ -2,7 +2,13 @@ const app = Vue.createApp({
   data() {
     return {
       cds: [],
+      showOverlay: false,
     };
+  },
+  methods: {
+    changeOverlay() {
+      this.showOverlay = !this.showOverlay;
+    },
   },
   created() {
     axios
