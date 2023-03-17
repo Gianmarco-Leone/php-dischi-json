@@ -7,17 +7,21 @@ const app = Vue.createApp({
     };
   },
   methods: {
+    fetchCds() {
+      axios
+        .get("http://localhost/php-dischi-json/API/get-data.php")
+        .then((response) => {
+          this.cds = response.data;
+        });
+    },
+
     changeOverlay(index) {
       this.showOverlay = !this.showOverlay;
       this.activeCdIndex = index;
     },
   },
   created() {
-    axios
-      .get("http://localhost/php-dischi-json/API/get-data.php")
-      .then((response) => {
-        this.cds = response.data;
-      });
+    fetchCds();
   },
 });
 app.mount("#app");
